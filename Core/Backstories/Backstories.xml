@@ -343,7 +343,7 @@
     <!-- EN: archer -->
     <titleShort>łucznik</titleShort>
     <!-- EN: [PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] walczył{PAWN_gender ? : a} dla swego plemienia. Jest wyszkolon{PAWN_gender ? y : a} w walce przy użyciu łuku, włóczni i innych broni pozwalających utrzymać dystans</desc>
   </Archer25>
   
   <Architect28>
@@ -443,13 +443,14 @@
   
   <Artilleryman28>
     <!-- EN: artilleryman -->
-    <title>TODO</title>
+    <title>artylerzysta</title>
     <!-- EN: artillerywoman -->
-    <titleFemale>TODO</titleFemale>
+    <titleFemale>artylerzystka</titleFemale>
     <!-- EN: artilleer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>artylerzysta</titleShort>
+    <titleShortFemale>artylerzystka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] loaded shells and aimed artillery to pound [PAWN_possessive] army's enemies from afar. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] ładował{PAWN_gender ? : a} amunicję i wycelowywał{PAWN_gender ? : a} artylerię, by z daleka niszczyć wrogie armie.</desc>
   </Artilleryman28>
   
   <ArtisanFarmer23>
@@ -476,20 +477,22 @@
   
   <ArtsPatron54>
     <!-- EN: arts patron -->
-    <title>TODO</title>
+    <title>mecenas</title>
     <!-- EN: patron -->
-    <titleShort>TODO</titleShort>
+    <titleShort>mecenas</titleShort>
     <!-- EN: [PAWN_nameDef] managed [PAWN_possessive] family's investments in the arts.\n\n[PAWN_pronoun] chose artists to patronize and worked with them to produce the expressions that most glorify [PAWN_possessive] family, the Imperial church, and the Empire itself. -->
-    <desc>TODO</desc>
+    <desc>zarządzał{PAWN_gender ? : a} ulokowanymi w sztukę inwestycjami swojej rodziny. Wspierał{PAWN_gender ? : a} artystów i pomagał{PAWN_gender ? : a} im stworzyć dzieła, które najbardziej wychwalają jego rodzinę, Imperialny Kościół i samo Imperium.</desc>
   </ArtsPatron54>
   
   <ArtStudent79>
     <!-- EN: Art student -->
-    <title>TODO</title>
+    <title>Student ASP</title>
+    <titleFemale>Studentka ASP</titleFemale>
     <!-- EN: Artist -->
-    <titleShort>TODO</titleShort>
+    <titleShort>Artystka</titleShort>
+    <titleShortFemale>Artystka</titleShortFemale>
     <!-- EN: After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industry work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from heart. -->
-    <desc>TODO</desc>
+    <desc>Po latach ćwiczeń, [PAWN_nameDef] został{PAWN_gender ? : a} przyjęt{PAWN_gender ? y : a} do akademii sztuk pięknych, gdzie {PAWN_gender ? mógł : mogła} doszlifować swe umiejętności. Po ukończeniu z ponadprzeciętnym wynikiem studiów, zacz{PAWN_gender ? ął : ęła} szukać pracy w przemyśle artystycznym. Poczynił{PAWN_gender ? : a} postępy wykonując prywatne zlecenia i dorobiła się tym samym dostatniego życia. </desc>
   </ArtStudent79>
   
   <AsceticPriest84>
@@ -571,11 +574,13 @@
   
   <Assembler69>
     <!-- EN: assembler -->
-    <title>TODO</title>
+    <title>montażysta</title>
+    <titleFemale>montażystka</titleFemale>
     <!-- EN: assembler -->
-    <titleShort>TODO</titleShort>
+    <titleShort>monter</titleShort>
+    <titleShortFemale>monterka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] worked on factory assembly lines, putting together products with the help of robots. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] pracował{PAWN_gender ? : a} w fabryce na linii monatażowej, gdzie z pomocą maszyn składał w całość produkty.</desc>
   </Assembler69>
   
   <Athlete47>
@@ -613,13 +618,14 @@
   
   <BalletDancer81>
     <!-- EN: ballet dancer -->
-    <title>TODO</title>
+    <title>Baletmistrz</title>
+    <titleFemale>Baletnica</titleFemale>
     <!-- EN: dancer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>Tancerz</titleShort>
     <!-- EN: ballerina -->
-    <titleShortFemale>TODO</titleShortFemale>
+    <titleShortFemale>Baletnica</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a dancer in a traditional ballet troupe. [PAWN_pronoun] mastered the ancient motions and entertained thousands. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był{PAWN_gender ? : a} tancer{PAWN_gender ? zem : ką} w tradycyjnej trupie baletowej. Opanował{PAWN_gender ? : a} starożytne ruchy i zapewniał{PAWN_gender ? : a} rozrywkę setkom osób.</desc>
   </BalletDancer81>
   
   <BanditLeader74>
@@ -637,9 +643,9 @@
     <!-- EN: banished -->
     <title>wygnaniec</title>
     <!-- EN: banished -->
-    <titleShort>TODO</titleShort>
+    <titleShort>wygnaniec</titleShort>
     <!-- EN: [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] został{PAWN_gender ? : a} wygnan{PAWN_gender ? y : a} ze swego plemienia zmuszon{PAWN_gender ? y : a} odbyć krwawą pokutę. Samotnie przetrwał{PAWN_gender ? : a} długi czas w dziczy.</desc>
   </Banished68>
   
   <BanishedSoldier85>
@@ -686,11 +692,11 @@
   
   <Beastmaster67>
     <!-- EN: beastmaster -->
-    <title>TODO</title>
+    <title>mistrz bestii</title>
     <!-- EN: beastmaster -->
-    <titleShort>TODO</titleShort>
+    <titleShort>treser</titleShort>
     <!-- EN: [PAWN_nameDef]'s family had more children than they had proper titles to inherit. Being of low rank in the birth order, [PAWN_nameDef] was given the honorary title of beastmaster.\n\n[PAWN_nameDef] managed the family's extensive menagerie. While [PAWN_pronoun] never worked hands-on with the beasts, [PAWN_pronoun] connected with them. Few others appreciated [PAWN_objective] the way they did. -->
-    <desc>TODO</desc>
+    <desc>Rodzina, z której pochodzi [PAWN_nameDef], miała więcej dzieci, niż odpowiednich tytułów do dziedziczenia. Jako iż był{PAWN_gender ? : a} jedn{PAWN_gender ? ym : ą} z najmłodszych w rodzeństwie, otrzymał{PAWN_gender ? : a} {PAWN_gender ? on : ona} tytuł honorowy mistrza bestii. \n\n [PAWN_nameDef] zarządzał{PAWN_gender ? : a} rozległą menażerią swojej rodziny. Mimo, że sam{PAWN_gender ? : a} nie musiał{PAWN_gender ? : a} zwierzętami się zajmować, tworzył{PAWN_gender ? : a} więź ze zwierzętami. Niektórzy podziwiali sposób w jaki to robił{PAWN_gender ? : a}.</desc>
   </Beastmaster67>
   
   <BeastSlayer67>
@@ -859,7 +865,7 @@
     <titleShort>księgoznawca</titleShort>
     <titleShortFemale>księgoznawczyni</titleShortFemale>
     <!-- EN: Rather than socialize with the other children, [PAWN_nameDef] preferred to get lost in literature. [PAWN_pronoun] taught [PAWN_objective]self to read at an early age with books bought from passing traders. -->
-    <desc>TODO</desc>
+    <desc>Zamiast bawić się z innymi dziećmi, [PAWN_nameDef] wolał{PAWN_gender ? : a} zagłębiać się w literaturze. Większość dzieciństwa spędził{PAWN_gender ? : a} z nosem w książkach, którego kupował{PAWN_gender ? : a} od wędrownych kupców</desc>
   </Bookworm19>
   
   <Bookworm3>
@@ -929,11 +935,13 @@
   
   <Brave88>
     <!-- EN: brave -->
-    <title>TODO</title>
+    <title>waleczny</title>
+    <titleFemale>waleczna</titleFemale>
     <!-- EN: brave -->
-    <titleShort>TODO</titleShort>
+    <titleShort>wojownik</titleShort>
+    <titleShortFemale>wojowniczka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] dierżył dzidy, topory, maczugi i wiele innej broni białej podczas wielu bitew dla swego plemienia.</desc>
   </Brave88>
   
   <Brigand68>
@@ -949,11 +957,12 @@
   
   <BrokenSoldier29>
     <!-- EN: broken soldier -->
-    <title>TODO</title>
+    <title>złamany żołnierz</title>
     <!-- EN: soldier -->
-    <titleShort>TODO</titleShort>
+    <titleShort>żołnierz</titleShort>
+    <titleShortFemale>żołnierka</titleShortFemale>
     <!-- EN: [PAWN_pronoun] was a strong soldier in a long war of succession. In [PAWN_possessive] final battle, [PAWN_possessive] unit was sacrified to cover a retreat. [PAWN_nameDef] watched [PAWN_possessive] comrades die and was the only survivor.\n\nThe experience broke [PAWN_objective] inside, leaving [PAWN_objective] without the coping strategies to moderate [PAWN_possessive] emotions.\n\n[PAWN_nameDef] learned to draw in the hospital. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_pronoun] był{PAWN_gender ? : a} dzieln{PAWN_gender ? ym : ą} żołnier{PAWN_gender ? zem : ką} w trakcie długiej wojny o dziedzictwo. W {PAWN_gender ? jego : jej} ostatniej walce, {PAWN_gender ? jego : jej} odział został poświęcony do osłaniania odwrotu reszty wojska. Był{PAWN_gender ? : a} jedyn{PAWN_gender ? ym : ą} ocalał{PAWN_gender ? ym : ą}, a widok {PAWN_gender ? jego : jej} umierających przyjaciół kompletnie załamał {PAWN_gender ? go : ją} psychicznie i wyprał z emocji. Ostatecznie zaciągn{PAWN_gender ? ą : ęła} się do służby w szpitalu.</desc>
   </BrokenSoldier29>
   
   <BrothelGofer84>
@@ -978,29 +987,33 @@
   
   <BuddingArtist44>
     <!-- EN: budding artist -->
-    <title>TODO</title>
+    <title>początkujący artysta</title>
+    <titleFemale>początkująca artystka</titleFemale>
     <!-- EN: artist -->
-    <titleShort>TODO</titleShort>
+    <titleShort>artysta</titleShort>
+    <titleShortFemale>artystka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] od zawsze miał{PAWN_gender ? : a} smykałkę do sztuki. Kupcy i kolekcjonerzy z wielu różnych społeczności przybywali, by kupić {PAWN_gender ? jego : jej} dzieła.</desc>
   </BuddingArtist44>
   
   <Builder96>
     <!-- EN: builder -->
-    <title>TODO</title>
+    <title>budowniczy</title>
     <!-- EN: builder -->
-    <titleShort>TODO</titleShort>
+    <titleShort>budowniczy</titleShort>
     <!-- EN: [PAWN_nameDef] worked on construction sites, building everyday structures according to [PAWN_possessive] boss' instructions. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] pracował{PAWN_gender ? : a} na budowie, każdego dnia konstuując struktury zgodnie z poleceniami {PAWN_gender ? jego : jej} szefa.</desc>
   </Builder96>
   
   <Bully70>
     <!-- EN: bully -->
-    <title>TODO</title>
+    <title>dręczyciel</title>
+    <titleFemale>dręczycielka</titleFemale>
     <!-- EN: bully -->
-    <titleShort>TODO</titleShort>
+    <titleShort>dręczyciel</titleShort>
+    <titleShortFemale>dręczycielka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] dla zabawy znęcał{PAWN_gender ? : a} się nad innymi dziećmi. We wczesnym wieku dorośli zapisali {PAWN_gender ? go : ją} do ekipy myśliwych, aby {PAWN_gender ? go : ją} czymś zająć.</desc>
   </Bully70>
   
   <BunkerKid41>
@@ -1088,11 +1101,13 @@
   
   <Carver1>
     <!-- EN: carver -->
-    <title>TODO</title>
+    <title>rzeźbiarz</title>
+    <titleFemale>rzeźbiarka</titleFemale>
     <!-- EN: carver -->
-    <titleShort>TODO</titleShort>
+    <titleShort>rzeźbiarz</titleShort>
+    <titleShortFemale>rzeźbiarka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
-    <desc>TODO</desc>
+    <desc>W swoim plemieniu [PAWN_nameDef] rzeźbił{PAWN_gender ? : a} różnorakie rzeźby z drewna, kamienia, a czasami i innych, bardziej egzotycznych, materiałów. Czasami {PAWN_gender ? jego : jej} dzieła były sprzedawane, a czasami zachowywane jako ozdoby w koloniach, które niekiedy pomagały skupić się podczas rytuałów</desc>
   </Carver1>
   
   <CasketBuilder52>
@@ -1343,11 +1358,11 @@
   
   <ChurchPsychic98>
     <!-- EN: church psychic -->
-    <title>TODO</title>
+    <title>psychik kościoła</title>
     <!-- EN: psychic -->
-    <titleShort>TODO</titleShort>
+    <titleShort>psychik</titleShort>
     <!-- EN: [PAWN_nameDef] was a psychic in the imperial church's psychic school.\n\n[PAWN_nameDef] trained [PAWN_possessive] mind to sense the collective emotions and impressions of the people. It was a way to touch the spirit of the empire. It was also a way to root out heretical trends in thought. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] {PAWN_gender ? był : była} psychikiem w szkole psychików Imperialnego Kościoła. Trenował{PAWN_gender ? : a} tam swój umysł, by wyczówać emocje i wrażenie ludzi. Był to sposób, aby poczuć ducha Imperium, ale i również by wyplenić heretyczne myśli z umysłów.</desc>
   </ChurchPsychic98>
   
   <CircusPerformer93>
@@ -1584,11 +1599,11 @@
   
   <Computer80>
     <!-- EN: computer -->
-    <title>TODO</title>
+    <title>komputer</title>
     <!-- EN: computer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>komputer</titleShort>
     <!-- EN: As a child, [PAWN_nameDef] crafted complex algorithms. [PAWN_pronoun] was used as a "human computer" for most of [PAWN_possessive] childhood. This left [PAWN_objective] socially awkward and rather scrawny.\n\n        Despite the solitary confinement, [PAWN_nameDef] developed a great imagination to occupy [PAWN_possessive] idle time. -->
-    <desc>TODO</desc>
+    <desc>Jako dziecko [PAWN_nameDef] pisał{PAWN_gender ? : a} skomplikowane algorytmy. W dzieciństwie ludzie nazywali {PAWN_gender ? go : ją} "ludzkim komputerem". To sprawiło, że w towarzystwie czuł{PAWN_gender ? : a} się raczej niezręcznie. Pomimo ograniczeń spowodowanych samotnością, [PAWN_nameDef] wykształcił{PAWN_gender ? : a} świetnął wyobraźnię, aby zająć czymś swój wolny czas.</desc>
   </Computer80>
   
   <ComputerEngineer10>
@@ -1603,11 +1618,11 @@
   
   <ComputerEngineer36>
     <!-- EN: computer engineer -->
-    <title>TODO</title>
+    <title>informatyk</title>
     <!-- EN: engineer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>inżynier</titleShort>
     <!-- EN: Leveraging [PAWN_possessive] childhood experience, [PAWN_nameDef] became a computer engineer. [PAWN_pronoun] also learned to craft delicate sculptures and random electronics for fun.\n\n        [PAWN_nameDef] became fond of technology and mostly gave up on talking to people. Using computers as friends has left [PAWN_nameDef] unable to care for others. -->
-    <desc>TODO</desc>
+    <desc>Dzięki nabytemu w dzieciństwie doświadczeniu, [PAWN_nameDef] został{PAWN_gender ? : a} informatykiem. Dla zabawy nauczył{PAWN_gender ? : a} się również tworzyć delikatne rzeźby oraz rozmaitą elektronikę.\n\n [PAWN_nameDef] stał{PAWN_gender ? : a} się miłośnikiem technologii do tego stopnia, że odpuścił{PAWN_gender ? : a} sobie rozmowy z ludźmi. Jako iż komutery zastąpiły {PAWN_gender ? mu : jej} przyjaciół, utracił{PAWN_gender ? : a} on{PAWN_gender ? : a} empatię.</desc>
   </ComputerEngineer36>
   
   <ComputerGeek62>
@@ -1727,29 +1742,33 @@
   
   <CorporateDrone10>
     <!-- EN: corporate drone -->
-    <title>TODO</title>
+    <title>korposzczur</title>
     <!-- EN: drone -->
-    <titleShort>TODO</titleShort>
+    <titleShort>korposzczur</titleShort>
     <!-- EN: [PAWN_nameDef] worked in a very large office complex along with thousands of other suited drones.\n\nThe work itself consisted of endless organizational drudgery and pointless meetings, punctuated by the occasional performance review. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef], wraz z tysiącami innych korpoludkami, prawcował{PAWN_gender ? : a} w wielkim biurowcu.\n\nPraca sama w sobie składała się z bezkresnego chaosu organizacyjnego i bezcelowych spotkań, okraszonych okazyjnymi ocenami wydajności.</desc>
   </CorporateDrone10>
   
   <CorporateFixer36>
     <!-- EN: corporate fixer -->
-    <title>TODO</title>
+    <title>diller korporacji</title>
+    <titleFemale>dillerka korporacji</titleFemale>
     <!-- EN: fixer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>diller</titleShort>
+    <titleShortFemale>dillerka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a fixer for an energy corporation. [PAWN_pronoun] work required knowing when to push, when to pull, when to back down and when to strike. The job fit [PAWN_possessive] natural lack of empathy.\n\nWhile violence was unusual, [PAWN_nameDef] stayed prepared for anything. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] był{PAWN_gender ? : a} diller{PAWN_gender ? em : ką} w korporacji energetycznej. {PAWN_gender ? Jego : Jej} praca wymagała wiedzy kiedy pchnąć, kiedy pociągnąć, kiedy się wycofać i kiedy uderzyć. Praca ta pasowała do {PAWN_gender ? jego : jej} wrodzonego braku empatii.\n\nPomimo, że przemoc pojawiała się rzadko, [PAWN_nameDef] był{PAWN_gender ? : a} zawsze gotow{PAWN_gender ? y : a} na wszystko.</desc>
   </CorporateFixer36>
   
   <CorporateManager76>
     <!-- EN: corporate manager -->
-    <title>TODO</title>
+    <title>menedżer korporacji</title>
+    <titleFemale>menedżerka korporacji</titleFemale>
     <!-- EN: manager -->
-    <titleShort>TODO</titleShort>
+    <titleShort>menedżer</titleShort>
+    <titleShort>menedżerka</titleShort>
     <!-- EN: [PAWN_nameDef] worked in a massive open-plan office, ensuring that [PAWN_possessive] assigned team of workers stayed mostly on-task.\n\nThe job was intensely political. In order to advance, [PAWN_nameDef] learned how to arrange things so [PAWN_pronoun] could take credit for work done by almost anyone. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] pracował{PAWN_gender ? : a} w wielkiej, otwartej przestrzeni biurowej, zapewniając, że zespół, że zespół, do którego miał{PAWN_gender ? : a} przydział, ciężko pracuje nad powierzonymi zadaniami.\n\nPraca ta była silnie związana z polityką. W ramach rozwoju, [PAWN_nameDef] nauczył{PAWN_gender ? : a} się organizować rzeczy tak, by czerpać zyski z pracy, którą mógłby wykonywać w zasadzie ktokolwiek.</desc>
   </CorporateManager76>
   
   <CorporateSlave22>
